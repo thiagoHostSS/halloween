@@ -1,0 +1,179 @@
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fafafa;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+
+.cabecalho {
+  background-color: #cc5500;
+  padding: 20px;
+}
+
+
+.titulo {
+  font-family: 'Creepster', cursive;
+  color: #ff7518;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 48px;
+}
+
+
+.subtitulo {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: #cc5500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+
+.texto {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fafafa;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 0 80px;
+}
+
+.corpo {
+  background-color: #000000;
+  padding: 20px;
+}
+
+
+.rodape {
+  background-color: #cc5500;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff7518;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+@media screen and (max-width: 480px) {
+  .cabecalho, .corpo, .rodape {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .titulo {
+    font-size: 32px;
+  }
+
+  .subtitulo {
+    font-size: 18px;
+  }
+
+  .texto {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  nav a {
+    color: #1a1a1a;
+    background-color: #ff7518;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  nav a:hover {
+    background-color: #cc5500;
+    color: #fff;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .cabecalho, .corpo, .rodape {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo {
+    font-size: 40px;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+  }
+
+  .texto {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+
+  nav li {
+    margin: 0 8px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+  .cabecalho, .corpo, .rodape {
+    padding: 30px;
+  }
+
+  .titulo {
+    font-size: 48px;
+  }
+
+  .subtitulo {
+    font-size: 24px;
+  }
+
+  .texto {
+    font-size: 18px;
+    padding: 0 100px;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    align-items: baseline;
+    
+}
